@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bộ lắp ráp Robot STEM — WONDERLAB</title>
+  <meta name="description" content="Bộ lắp ráp Robot STEM: 420 chi tiết, phù hợp trẻ 6–10 tuổi. Xem hình ảnh, thông số và hướng dẫn lắp ráp tại WONDERLAB.">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+
+  <header class="site-head">
+    <div class="container site-head__top">
+      <a class="brand" href="index.html" aria-label="WONDERLAB — trang chủ">
+        <video class="brand__logo" 
+        autoplay muted loop playsinline poster="assets/img/logo-wonderlab.png" 
+        role="img" aria-label="WONDERLAB — Bé Khám Phá">
+              <source src="assets/img/video-logo.mp4" type="video/mp4" />
+              <img src="assets/img/logo-wonderlab.png" alt="WONDERLAB — Bé Khám Phá" />
+            </video>
+      </a>
+
+      <form class="search" role="search" action="products.html" method="get">
+        <label class="sr-only" for="q">Tìm sản phẩm</label>
+        <input class="search__input" id="q" name="q" type="search" placeholder="Tìm bộ lắp ráp, xếp hình, thí nghiệm…" autocomplete="off">
+        <button class="search__btn" type="submit" aria-label="Tìm sản phẩm">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.4-3.4"></path></svg>
+        </button>
+      </form>
+
+      <button class="cart-btn" type="button" data-cart-open aria-label="Mở giỏ hàng">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <circle cx="9" cy="20" r="1.4"></circle><circle cx="18" cy="20" r="1.4"></circle>
+          <path d="M2.5 3.5h2.2l2.5 11.6a1.8 1.8 0 0 0 1.8 1.4h8.6a1.8 1.8 0 0 0 1.8-1.4L21 7H6"></path>
+        </svg>
+        <span class="cart-btn__count" data-cart-count hidden>0</span>
+      </button>
+    </div>
+
+    <div class="site-head__bar" data-nav-bar>
+      <div class="container site-head__nav-row">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          <span>Menu</span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Điều hướng chính">
+          <a class="site-nav__link" href="index.html">Trang chủ</a>
+          <a class="site-nav__link" href="products.html" aria-current="page">Sản phẩm</a>
+          <a class="site-nav__link" href="about.html">Giới thiệu</a>
+        </nav>
+        <p class="site-head__note">Đồ chơi cho trẻ 4–12 tuổi</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page-main" data-product-root data-slug="robot-stem">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="products.html">Sản phẩm</a></li>
+          <li><span aria-current="page" data-crumb>Bộ lắp ráp Robot STEM</span></li>
+        </ol>
+      </nav>
+
+      <div class="p-detail__main">
+        <div class="gallery">
+          <div class="gallery__main">
+            <img id="gallery-main" src="assets/img/products/product-robot-stem.jpg" alt="Bộ lắp ráp robot STEM màu xanh và trắng có tay gắp và bốn bánh xe" width="1024" height="1024">
+            <div class="gallery__video-box" id="gallery-video-box" hidden>
+              <video id="gallery-video" playsinline controls preload="metadata" poster="assets/img/products/product-robot-stem.jpg">
+                <source src="assets/videos/Bo-lap-rap-robot-stem.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ thẻ video.
+              </video>
+            </div>
+            <button class="gallery__video-pill" type="button" data-play-main-video aria-label="Xem video sản phẩm">
+              <span class="pill-play-icon"><svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+              <span>Video thực tế</span>
+            </button>
+          </div>
+          <div class="gallery__thumbs" data-thumbs role="group" aria-label="Chọn ảnh sản phẩm">
+            <button class="gallery__thumb" type="button" aria-pressed="true" data-type="image" data-index="0" aria-label="Xem ảnh 1: toàn bộ mô hình robot">
+              <img src="assets/img/products/product-robot-stem.jpg" alt="" width="160" height="160">
+            </button>
+            <button class="gallery__thumb" type="button" aria-pressed="false" data-type="image" data-index="1" aria-label="Xem ảnh 2: robot nhìn nghiêng">
+              <img src="assets/img/products/robot-stem-2.jpg" alt="" width="160" height="160">
+            </button>
+            <button class="gallery__thumb" type="button" aria-pressed="false" data-type="image" data-index="2" aria-label="Xem ảnh 3: các chi tiết trong hộp">
+              <img src="assets/img/products/robot-stem-3.jpg" alt="" width="160" height="160">
+            </button>
+            <button class="gallery__thumb" type="button" aria-pressed="false" data-type="image" data-index="3" aria-label="Xem ảnh 4: cận cảnh tay gắp và bánh trước">
+              <img src="assets/img/products/robot-stem-4.jpg" alt="" width="160" height="160">
+            </button>
+            <button class="gallery__thumb gallery__thumb--video" type="button" aria-pressed="false" data-type="video" aria-label="Xem video mô hình robot">
+              <div class="thumb-video-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+              <img src="assets/img/products/product-robot-stem.jpg" alt="" width="160" height="160">
+              <span class="thumb-video-badge">Video</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="buy">
+          <p class="t-label" data-category>Lắp ráp &amp; STEM</p>
+          <h1 class="buy__title" data-name>Bộ lắp ráp Robot STEM</h1>
+          <div class="rating-badge" data-rating-badge>
+            <div class="stars" aria-hidden="true">
+              <span class="review-stars-mini" data-stars-inline>★★★★★</span>
+            </div>
+            <span class="rating-badge__score" data-rating-score>4.9</span>
+            <a href="#panel-danhgia" class="rating-badge__count" data-jump-reviews>(<span data-review-count>28</span> đánh giá)</a>
+            <button type="button" class="video-quick-link" data-jump-video aria-label="Xem video mô hình thực tế">
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              <span>Xem video (0:10)</span>
+            </button>
+          </div>
+          <p class="buy__meta">
+            <span class="buy__meta-age" data-age>6–10 tuổi</span>
+            <span data-parts>420 chi tiết</span>
+            <span data-material>Nhựa ABS</span>
+          </p>
+          <p class="buy__price" data-price>599.000đ</p>
+          <p class="buy__desc" data-summary>Lắp ráp mô hình robot có bánh xe, tay gắp và cảm biến khoảng cách.</p>
+
+          <form class="buy__form" data-buy-form>
+            <div class="field">
+              <label class="field__label" for="qty">Số lượng</label>
+              <div class="qty">
+                <button class="qty__btn" type="button" data-qty="-1" aria-label="Giảm số lượng">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M5 12h14"></path></svg>
+                </button>
+                <input class="qty__input" id="qty" name="qty" type="number" inputmode="numeric" min="1" max="20" value="1">
+                <button class="qty__btn" type="button" data-qty="1" aria-label="Tăng số lượng">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"></path></svg>
+                </button>
+              </div>
+            </div>
+            <div class="buy__actions">
+              <button class="c-btn c-btn--primary" type="submit">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <circle cx="9" cy="20" r="1.4"></circle><circle cx="18" cy="20" r="1.4"></circle>
+                  <path d="M2.5 3.5h2.2l2.5 11.6a1.8 1.8 0 0 0 1.8 1.4h8.6a1.8 1.8 0 0 0 1.8-1.4L21 7H6"></path>
+                </svg>
+                Thêm vào giỏ hàng
+              </button>
+              <button class="c-btn c-btn--ghost" type="button" data-buy-now>Mua ngay</button>
+            </div>
+          </form>
+          <p class="buy__note">Đây là giao diện demo của một dự án học tập. Nút mua hàng chỉ thêm sản phẩm vào giỏ hàng trên trình duyệt, không có thanh toán thật.</p>
+        </div>
+      </div>
+
+      <div class="attr-strip">
+        <div class="attr">
+          <p class="attr__key">Độ tuổi</p>
+          <p class="attr__val" data-age>6–10 tuổi</p>
+        </div>
+        <div class="attr">
+          <p class="attr__key" data-parts-label>Số chi tiết</p>
+          <p class="attr__val" data-parts>420 chi tiết</p>
+        </div>
+        <div class="attr">
+          <p class="attr__key">Chất liệu</p>
+          <p class="attr__val" data-material>Nhựa ABS</p>
+        </div>
+        <div class="attr">
+          <p class="attr__key">Thương hiệu</p>
+          <p class="attr__val" data-brand>WONDERLAB</p>
+        </div>
+      </div>
+
+      <div class="detail-body">
+        <div>
+          <div class="tabs__list" role="tablist" aria-label="Thông tin sản phẩm">
+            <button class="tabs__tab" role="tab" id="tab-mota" aria-controls="panel-mota" aria-selected="true" tabindex="0">Mô tả sản phẩm</button>
+            <button class="tabs__tab" role="tab" id="tab-video" aria-controls="panel-video" aria-selected="false" tabindex="-1" data-tab-video>Video thực tế <span class="tab-video-badge">HD</span></button>
+            <button class="tabs__tab" role="tab" id="tab-thongso" aria-controls="panel-thongso" aria-selected="false" tabindex="-1">Thông số kỹ thuật</button>
+            <button class="tabs__tab" role="tab" id="tab-huongdan" aria-controls="panel-huongdan" aria-selected="false" tabindex="-1">Hướng dẫn sử dụng</button>
+            <button class="tabs__tab" role="tab" id="tab-danhgia" aria-controls="panel-danhgia" aria-selected="false" tabindex="-1">Đánh giá (<span data-tab-review-count>28</span>)</button>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-mota" aria-labelledby="tab-mota" tabindex="0">
+            <div data-panel-body>
+              <p>Bộ lắp ráp Robot STEM dành cho trẻ 6–10 tuổi gồm 420 chi tiết nhựa ABS để bé tự dựng một mô hình robot có bánh xe, tay gắp và cảm biến khoảng cách. Đây là món đồ chơi lắp ráp giúp bé làm quen với cơ khí và điện cơ đơn giản thông qua việc tự thao tác với từng bộ phận.</p>
+              <h2>Đặc điểm nổi bật của bộ lắp ráp Robot STEM</h2>
+              <ul class="spec-list">
+                <li>420 chi tiết gồm thanh nhựa, bánh xe, mô tơ và khớp nối.</li>
+                <li>Kèm tua vít và sách hướng dẫn 24 trang với hình minh họa từng bước.</li>
+                <li>Nhựa ABS, không có cạnh sắc, kích thước khi lắp 24 × 18 × 15 cm.</li>
+                <li>Tay gắp có thể thay đổi vị trí để bé thử các cách hoạt động khác nhau.</li>
+              </ul>
+              <h2>Lợi ích khi bé lắp robot</h2>
+              <p>Quá trình lắp từ khung, bánh trước đến tay gắp giúp bé hiểu mối liên hệ giữa cấu tạo và chức năng. Bé rèn khả năng đọc sơ đồ, nhận diện chi tiết, kiên nhẫn với những bước dài và tự khắc phục khi lắp sai. Sau khi robot hoàn thành, bé còn có thể chơi thử và cải tiến, đó là nền tảng của tư duy kỹ thuật.</p>
+              <h2>Gợi ý khi lắp ráp cùng Bộ lắp ráp Robot STEM</h2>
+              <p>Hãy mở hộp và phân loại chi tiết theo nhóm màu trước khi lắp. Bắt đầu từ khung xe và bánh trước, sau đó mới gắn tay gắp. Trước khi bật mô tơ, hãy xoay thử các khớp bằng tay để chắc chắn mọi bộ phận chuyển động trơn tru. Sản phẩm phù hợp với trẻ đã quen lắp ghép và có thể đọc hình minh họa; người lớn nên có mặt ở lần lắp đầu tiên để giúp bé phân biệt ốc và chi tiết nhỏ.</p>
+              <h2>Nguồn điện và lưu ý của Bộ lắp ráp Robot STEM</h2>
+              <p>Mô tơ sử dụng 2 pin AA (pin không kèm theo bộ sản phẩm). Các chi tiết nhỏ không phù hợp với trẻ dưới độ tuổi khuyến nghị, nên hãy cất gọn sau khi chơi.</p>
+              <p>Bộ lắp ráp Robot STEM tại WONDERLAB là món quà ý nghĩa cho bé yêu công nghệ và thích tự tay tạo ra mô hình của riêng mình.</p>
+            </div>
+
+            <!-- Overview Video Showcase Card -->
+            <div class="overview-video-card" data-overview-video-card>
+              <div class="overview-video-card__info">
+                <span class="overview-video-card__tag">
+                  <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                  Trải nghiệm trực quan
+                </span>
+                <h3 class="overview-video-card__heading" data-overview-video-title>Xem video thực tế Bộ lắp ráp Robot STEM</h3>
+                <p class="overview-video-card__text">Khám phá chi tiết chuyển động cơ học và cách bé tương tác thực tế với sản phẩm qua clip ngắn sắc nét 10 giây.</p>
+                <button type="button" class="c-btn c-btn--outline overview-video-card__btn" data-switch-to-video-tab>
+                  <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                  Xem video toàn màn hình
+                </button>
+              </div>
+              <div class="overview-video-card__thumb" data-switch-to-video-tab tabindex="0" role="button" aria-label="Xem video sản phẩm">
+                <img src="assets/img/products/product-robot-stem.jpg" alt="" data-overview-video-thumb width="280" height="180">
+                <div class="overview-video-card__play">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <span class="overview-video-card__duration">0:10</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-video" aria-labelledby="tab-video" tabindex="0" hidden>
+            <div class="video-panel-card">
+              <div class="video-panel-header">
+                <span class="video-panel-badge">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                  <span>Video mở hộp &amp; trải nghiệm</span>
+                </span>
+                <h3 class="video-panel-title" data-tab-video-title>Video thực tế: Bộ lắp ráp Robot STEM</h3>
+                <p class="video-panel-desc">Góc quay thực tế giúp phụ huynh và các bé quan sát rõ ràng kích thước, khớp nối và cách món đồ chơi vận hành.</p>
+              </div>
+              <div class="video-player-frame">
+                <video 
+                id="tab-video-player" 
+                class="video-player-element" 
+                controls playsinline 
+                preload="metadata" 
+                poster="assets/img/products/product-robot-stem.jpg">
+                  <source src="assets/videos/Bo-lap-rap-robot-stem.mp4" type="video/mp4">
+                  Trình duyệt của bạn không hỗ trợ thẻ video.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-thongso" aria-labelledby="tab-thongso" tabindex="0" hidden>
+            <table class="spec-table">
+              <caption class="sr-only">Thông số kỹ thuật</caption>
+              <tbody data-panel-specs>
+                <tr><th scope="row">Số chi tiết</th><td>420 chi tiết</td></tr>
+                <tr><th scope="row">Chất liệu</th><td>Nhựa ABS, không có cạnh sắc</td></tr>
+                <tr><th scope="row">Kích thước khi lắp</th><td>24 × 18 × 15 cm</td></tr>
+                <tr><th scope="row">Nguồn</th><td>2 pin AA cho mô tơ (không kèm)</td></tr>
+                <tr><th scope="row">Bao gồm</th><td>Chi tiết lắp ráp, tua vít, sách hướng dẫn 24 trang</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-huongdan" aria-labelledby="tab-huongdan" tabindex="0" hidden>
+            <ul class="spec-list" data-panel-guide>
+              <li>Mở hộp và phân loại chi tiết theo nhóm màu trước khi lắp.</li>
+              <li>Lắp khung xe và bánh trước, sau đó mới gắn tay gắp.</li>
+              <li>Kiểm tra các khớp nối bằng cách xoay tay gắp bằng tay trước khi bật mô tơ.</li>
+            </ul>
+          </div>
+
+          <div class="tabs__panel" role="tabpanel" id="panel-danhgia" aria-labelledby="tab-danhgia" tabindex="0" hidden data-panel-reviews>
+            <div class="reviews-container">
+              <!-- Summary Card -->
+              <div class="review-summary-card">
+                <div class="review-score-box">
+                  <div class="review-score-num" data-score-main>4.9</div>
+                  <div class="review-score-stars" data-stars-main aria-label="4.9 trên 5 sao">★★★★★</div>
+                  <p class="review-score-note">Dựa trên <b data-review-count-bold>28</b> đánh giá thực tế</p>
+                </div>
+                
+                <div class="review-distribution" data-rating-distribution>
+                  <div class="review-dist-row">
+                    <span class="review-dist-label">5 sao</span>
+                    <div class="review-dist-track"><div class="review-dist-fill" data-dist-5 style="width: 86%;"></div></div>
+                    <span class="review-dist-pct" data-dist-pct-5>86%</span>
+                  </div>
+                  <div class="review-dist-row">
+                    <span class="review-dist-label">4 sao</span>
+                    <div class="review-dist-track"><div class="review-dist-fill" data-dist-4 style="width: 11%;"></div></div>
+                    <span class="review-dist-pct" data-dist-pct-4>11%</span>
+                  </div>
+                  <div class="review-dist-row">
+                    <span class="review-dist-label">3 sao</span>
+                    <div class="review-dist-track"><div class="review-dist-fill" data-dist-3 style="width: 3%;"></div></div>
+                    <span class="review-dist-pct" data-dist-pct-3>3%</span>
+                  </div>
+                  <div class="review-dist-row">
+                    <span class="review-dist-label">2 sao</span>
+                    <div class="review-dist-track"><div class="review-dist-fill" data-dist-2 style="width: 0%;"></div></div>
+                    <span class="review-dist-pct" data-dist-pct-2>0%</span>
+                  </div>
+                  <div class="review-dist-row">
+                    <span class="review-dist-label">1 sao</span>
+                    <div class="review-dist-track"><div class="review-dist-fill" data-dist-1 style="width: 0%;"></div></div>
+                    <span class="review-dist-pct" data-dist-pct-1>0%</span>
+                  </div>
+                </div>
+
+                <div class="review-action-box">
+                  <p class="review-action-title">Bạn đã mua sản phẩm này?</p>
+                  <p class="review-action-sub">Chia sẻ nhận xét thực tế để giúp các phụ huynh khác nhé!</p>
+                  <button type="button" class="c-btn c-btn--primary" data-toggle-review-form>Viết đánh giá</button>
+                </div>
+              </div>
+
+              <!-- Review Form Card -->
+              <div class="review-form-card" id="review-form-card" data-review-form-card hidden>
+                <div class="review-form-card__head">
+                  <h3 class="review-form-card__title">Gửi đánh giá của bạn</h3>
+                  <button type="button" class="icon-btn" data-close-review-form aria-label="Đóng form">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+                  </button>
+                </div>
+                <form data-user-review-form>
+                  <div class="rating-select">
+                    <label>Chấm điểm:</label>
+                    <div class="star-picker" data-star-picker role="radiogroup" aria-label="Chọn số sao">
+                      <button type="button" class="star-picker__star is-active" data-val="1" aria-label="1 sao">★</button>
+                      <button type="button" class="star-picker__star is-active" data-val="2" aria-label="2 sao">★</button>
+                      <button type="button" class="star-picker__star is-active" data-val="3" aria-label="3 sao">★</button>
+                      <button type="button" class="star-picker__star is-active" data-val="4" aria-label="4 sao">★</button>
+                      <button type="button" class="star-picker__star is-active" data-val="5" aria-label="5 sao">★</button>
+                    </div>
+                    <span class="star-picker__label" data-star-label>Tuyệt vời (5/5 sao)</span>
+                    <input type="hidden" name="rating" value="5" data-rating-input>
+                  </div>
+
+                  <div class="review-form-grid">
+                    <div class="review-form-field">
+                      <label for="rev-author">Họ và tên của bạn / Phụ huynh bé *</label>
+                      <input type="text" id="rev-author" name="author" placeholder="Ví dụ: Chị Minh Thư (Mẹ bé 5 tuổi)" required>
+                    </div>
+                    <div class="review-form-field">
+                      <label for="rev-title">Tiêu đề đánh giá *</label>
+                      <input type="text" id="rev-title" name="title" placeholder="Ví dụ: Bé rất thích, chất liệu an toàn" required>
+                    </div>
+                  </div>
+
+                  <div class="review-form-field">
+                    <label for="rev-comment">Nội dung nhận xét chi tiết *</label>
+                    <textarea id="rev-comment" name="comment" rows="3" placeholder="Chia sẻ cảm nhận về độ hoàn thiện, màu sắc, cách chơi và sự hào hứng của bé..." required></textarea>
+                  </div>
+
+                  <div class="review-form-submit">
+                    <button type="button" class="c-btn c-btn--ghost" data-close-review-form>Hủy</button>
+                    <button type="submit" class="c-btn c-btn--primary">Gửi đánh giá ngay</button>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Reviews List -->
+              <div class="review-list-wrap">
+                <div class="review-list-head">
+                  <h3 class="review-list-title">Nhận xét nổi bật từ khách hàng (<span data-review-count-list>4</span>)</h3>
+                </div>
+                <div class="review-list" data-reviews-list>
+                  <!-- Dynamically rendered -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="related" aria-labelledby="related-title">
+          <h2 class="related__title" id="related-title">Sản phẩm cùng độ tuổi</h2>
+          <ul class="related__list">
+            <li>
+              <a class="related__item" href="product-detail.html?sp=science-kit">
+                <img class="related__img" src="assets/img/products/product-science-kit.jpg" alt="" width="72" height="72" loading="lazy">
+                <span>
+                  <span class="related__name">Bộ thí nghiệm khoa học</span>
+                  <span class="related__price">449.000đ</span>
+                  <span class="related__meta">6–12 tuổi</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a class="related__item" href="product-detail.html?sp=magnetic-tiles">
+                <img class="related__img" src="assets/img/products/product-magnetic-tiles.jpg" alt="" width="72" height="72" loading="lazy">
+                <span>
+                  <span class="related__name">Bộ nam châm xếp hình</span>
+                  <span class="related__price">399.000đ</span>
+                  <span class="related__meta">6–10 tuổi</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-foot">
+    <div class="container site-foot__grid">
+      <div class="site-foot__about">
+        <a class="brand brand--light" href="index.html" aria-label="WONDERLAB — trang chủ">
+          <span class="brand__plate">
+            <img class="brand__logo" src="assets/img/logo-wonderlab.png" alt="WONDERLAB — Bé Khám Phá" width="560" height="321" />
+          </span>
+        </a>
+        <p class="brand__tagline">Play • Learn • Grow</p>
+        <p>Đồ chơi giáo dục giúp trẻ 4–12 tuổi lắp ráp, thử nghiệm và tự tìm ra cách chơi.</p>
+      </div>
+
+      <nav aria-labelledby="foot-links">
+        <h2 class="site-foot__title" id="foot-links">Liên kết nhanh</h2>
+        <ul class="site-foot__list">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="products.html">Sản phẩm</a></li>
+          <li><a href="about.html">Giới thiệu</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h2 class="site-foot__title">Liên hệ</h2>
+        <div class="site-foot__contact">
+          <a href="mailto:wonderlab@example.com">wonderlab@example.com</a>
+          <a href="tel:+84123456789">0123 456 789</a>
+          <span>Thứ 2 – Thứ 7, 8:00 – 17:00</span>
+        </div>
+      </div>
+    </div>
+    <div class="container site-foot__rule"></div>
+    <div class="container site-foot__bottom">
+      <span>© 2026 WONDERLAB. Dự án học tập, không phải cửa hàng thật.</span>
+      <span>Giỏ hàng trên trang là bản demo, không có thanh toán.</span>
+    </div>
+  </footer>
+
+  <div class="cart-drawer" data-cart-drawer hidden role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <button class="cart-drawer__scrim" type="button" data-cart-close aria-label="Đóng giỏ hàng"></button>
+    <div class="cart-drawer__panel">
+      <div class="cart-drawer__head">
+        <h2 class="cart-drawer__title" id="cart-title">Giỏ hàng của bạn</h2>
+        <button class="icon-btn" type="button" data-cart-close aria-label="Đóng giỏ hàng">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+        </button>
+      </div>
+      <div class="cart-drawer__items" data-cart-items></div>
+      <div class="cart-drawer__foot">
+        <div class="cart-drawer__total"><span>Tạm tính</span><strong data-cart-total>0đ</strong></div>
+        <a class="c-btn c-btn--ghost c-btn--wide" href="products.html">Tiếp tục xem sản phẩm</a>
+        <p class="cart-drawer__note">Đây là giỏ hàng demo của một dự án học tập. Chưa có bước thanh toán hoặc đặt hàng thật.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" data-toast hidden role="status" aria-live="polite">
+    <span data-toast-text>Đã thêm vào giỏ hàng demo.</span>
+    <button class="toast__close" type="button" data-toast-close aria-label="Đóng thông báo">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+    </button>
+  </div>
+
